@@ -1,0 +1,7 @@
+.international {
+  background-image: linear-gradient(to right, $overlay-teal, $overlay-teal),
+    url(../images/gallery/5.png);
+  .international-color {
+    color: $site-teal;
+  }
+}

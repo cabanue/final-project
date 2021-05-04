@@ -1,0 +1,71 @@
+.home-events {
+  height: 320px;
+  width: 100%;
+  background-color: $site-purple;
+  padding-left: 40px;
+  // padding-right: 42px;
+  .upcoming {
+    padding-top: 48px;
+    max-width: 1280px;
+    margin: 0 auto;
+    p {
+      width: 392px;
+      color: $site-white;
+      font-size: 25px;
+      font-family: Gill;
+      padding-bottom: 10.5px;
+      border-bottom: $site-white solid 2px;
+    }
+  }
+  .event-dates {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 15px;
+    flex-wrap: wrap;
+    a {
+      text-decoration: none;
+    }
+    .event-date {
+      display: flex;
+      width: 220px;
+      padding-bottom: 40px;
+      margin-right: 20px;
+      .left {
+        padding-right: 20px;
+      }
+      .right {
+        letter-spacing: 0.5pt;
+        .event-title {
+          text-decoration: none;
+          color: $site-white;
+          font-family: Gill;
+          font-size: 15px;
+          margin-bottom: 10px;
+        }
+        .event-description {
+          color: $site-pink;
+          font-family: Gill;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .home-events {
+    height: auto;
+    .upcoming {
+      p {
+        margin: 0 auto;
+        text-align: center;
+      }
+    }
+    .event-dates {
+      margin-top: 20px;
+      align-items: center;
+      padding-bottom: 20px;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.foodfest {
+  background-image: linear-gradient(to right, $overlay-purple, $overlay-purple),
+    url(../images/gallery/4.jpg);
+  .foodfest-color {
+    color: $site-purple;
+  }
+}

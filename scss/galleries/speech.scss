@@ -1,0 +1,7 @@
+.speech {
+  background-image: linear-gradient(to right, $overlay-green, $overlay-green),
+    url(../images/gallery/3.jpg);
+  .speech-color {
+    color: $site-green;
+  }
+}

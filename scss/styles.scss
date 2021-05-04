@@ -1,0 +1,34 @@
+@import "variables.scss";
+@import "structure.scss";
+
+//nav
+@import "nav.scss";
+
+//footer
+@import "footer.scss";
+
+//home
+@import "home/hero.scss";
+@import "home/quote.scss";
+@import "home/events.scss";
+
+//about
+@import "about/about.scss";
+
+//gallery
+@import "galleries/galleries.scss";
+@import "galleries/gallery-individual.scss";
+
+//individual gallery pages
+@import "galleries/festival.scss";
+@import "galleries/dee.scss";
+@import "galleries/speech.scss";
+@import "galleries/foodfest.scss";
+@import "galleries/international.scss";
+
+//blog
+@import "blog/blogs.scss";
+@import "blog/blog-individual.scss";
+
+//contact
+@import "contact/contact.scss";

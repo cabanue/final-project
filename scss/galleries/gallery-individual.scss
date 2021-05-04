@@ -1,0 +1,69 @@
+.gallery-individual {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 50.5px;
+  .individual-hero {
+    height: 400.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    .individual-heading {
+      position: absolute;
+      font-family: Gill;
+      font-size: 140px;
+      margin-bottom: 0px;
+      position: absolute;
+      bottom: -70px;
+      text-shadow: 4px 4px 5px $drop-black;
+      span {
+        font-size: 300px;
+      }
+    }
+    .foodfest-color,
+    .international-color {
+      font-size: 115px;
+    }
+  }
+
+  .individual-text {
+    display: flex;
+    margin-top: 50.5px;
+    margin-bottom: 73px;
+    font-size: 16px;
+    font-family: GillLightItal;
+    justify-content: space-between;
+    letter-spacing: 1.2pt;
+    .individual-left {
+      width: 490px;
+    }
+    .individual-right {
+      width: 451px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .gallery-individual {
+    width: 90%;
+    .individual-hero {
+      .individual-heading {
+        bottom: -35px;
+        font-size: 100px;
+        span {
+          font-size: 140px;
+        }
+      }
+    }
+    .individual-text {
+      flex-direction: column;
+      align-items: center;
+      .individual-left {
+        margin-bottom: 40px;
+      }
+      .individual-right {
+        width: 490px;
+      }
+    }
+  }
+}

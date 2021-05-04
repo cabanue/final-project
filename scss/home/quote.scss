@@ -1,0 +1,45 @@
+.quote {
+  max-width: 1280px;
+  height: 300px;
+  margin: 0 auto;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: center;
+  .text {
+    width: 789px;
+    color: $site-yellow;
+    font-family: GillSemi;
+    font-size: 15px;
+    letter-spacing: 0.5pt;
+    line-height: 1.6;
+  }
+  .person {
+    width: 789px;
+    margin-top: 20px;
+    margin-bottom: 76px;
+    .name {
+      color: $site-pink;
+      font-family: PTSerif;
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+    .position {
+      color: #a8a8a8;
+      font-family: PTSerif;
+      font-size: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .quote {
+    .text {
+      width: 90%;
+    }
+    .person {
+      width: 90%;
+    }
+  }
+}

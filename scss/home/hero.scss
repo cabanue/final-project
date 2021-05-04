@@ -1,0 +1,46 @@
+.hero {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, $overlay-yellow, $overlay-yellow),
+    url(../images/home-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 30px;
+  .heading {
+    margin-top: 63.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .header {
+      font-family: PTSerif;
+      font-size: 40px;
+      color: $site-white;
+      margin-bottom: 8px;
+    }
+    .sub-header {
+      font-family: GillItalic;
+      font-size: 20px;
+      color: $site-pink;
+    }
+    .filler {
+      margin-top: 34px;
+      font-family: GillItalic;
+      font-size: 20px;
+      color: $site-white;
+      text-align: center;
+    }
+    button {
+      margin-top: 32px;
+      width: 121px;
+      height: 40px;
+      color: $site-white;
+      background-color: $site-pink;
+      border: none;
+      font-family: Gill;
+      font-size: 15px;
+    }
+  }
+}
